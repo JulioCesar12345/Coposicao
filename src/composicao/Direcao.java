@@ -10,6 +10,7 @@ package composicao;
  * @author julio.gabardo
  */
 public class Direcao {
+
     private String cor;
 
     /**
@@ -25,5 +26,5 @@ public class Direcao {
     public void setCor(String cor) {
         this.cor = cor;
     }
-    
+
 }

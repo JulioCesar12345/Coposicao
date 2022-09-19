@@ -10,7 +10,16 @@ package composicao;
  * @author julio.gabardo
  */
 public class Motor {
+
     private int potencia;
+
+    public Motor() { // metodo construtor
+        potencia = 1000;//valor padrao
+    }
+
+    public Motor(int potencia) {//sobrecarga metodo
+        this.potencia = potencia;//valor definido por você
+    }
 
     /**
      * @return the potencia
@@ -25,5 +34,5 @@ public class Motor {
     public void setPotencia(int potencia) {
         this.potencia = potencia;
     }
-    
+
 }
